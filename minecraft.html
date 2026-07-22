@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HamodaMinecraft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <style>
+    /*
+Background	Midnight Blue	#0B102F
+Secondary Background	Deep Indigo	#252559
+Surface/Card	Purple Slate	#5B4E94
+Primary Accent	Aurora Green	#64A09E
+Secondary Accent	Aurora Pink	#98559E
+Highlight	Soft Pink	#EEA0CE
+Text	Snow White	#F7E1D2
+Muted Text	Lavender Gray	#B8B4D9
+    */
+    
+    @font-face {
+            font-family: 'mc';
+            src: url('Minecraft.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+                }
+             
+    body,html{
+        height: 100%;
+    }            
+    li{
+        color:white;
+        list-style: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    header{
+        display:sticky;
+        top:0;
+        left:0;
+        
+    }
+    .logo{
+        background-image: url('https://pngimg.com/uploads/minecraft/minecraft_PNG81.png');
+        height:50px;
+        width:200px;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+    ul{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    li{
+        color:black;
+        font-family: mc;
+        font-weight: 400;
+        font-style: normal;
+        margin:0;
+    }
+    .hero{
+        background-image:url('https://i.pinimg.com/736x/85/fe/40/85fe40b0f29481e26fa0666bb5087781.jpg');
+        height:300px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dark{
+        background-image:linear-gradient(rgba(0,0,0,0.99999) 0%,rgba(0,0,0,0.4) 50%)
+    }
+    h1{
+        color:white;
+        font-family: mc;
+    }
+    #second {
+        background-image:linear-gradient(#30f040 0%,#04ff19 50%,white 100%);
+        min-height: 200px;
+        height: 100%;
+        padding:2px;
+    }
+    footer{
+        background-color: white;
+        min-height: 20px;
+    }
+    #second h1{
+        margin-top:5px;
+        text-align: center;
+    }
+    a{
+        background-color: #04ff19;
+        text-decoration: none;
+        font-family: mc;
+        color:white;
+        
+    }
+    .card{
+        min-height:150px;
+        overflow: hidden;
+    }
+    img{
+        height:50px;
+    }
+    .card-img-top{
+        background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJohJCZvtyxa_YoS9zMgJJOfEPorAS8k2-CmtjpfpznA&s=10');
+        min-height:100px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat:no-repeat;
+        
+    }
+    footer{
+        padding:20px;
+        
+    }
+    footer h1{
+        color:black;
+        text-align:center;
+    }
+    
+    </style>
+</head>
+<body>
+    <header class="border-bottom border-3">
+        
+            
+            <nav>
+                <div class="d-flex p-3 justify-content-center align-items-center">
+                <div class="logo"></div>
+                </div>
+                <ul>
+                    <li>Play</li>
+                    <li>Community</li>
+                    <li>Servers</li>
+                </ul>
+            </nav>
+    
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="dark h-100 d-flex flex-column justify-content-center align-items-center">
+                <h1>Play With Us !</h1>
+                <a href="" class="border rounded-pill px-5">Play</a>
+            </div>
+        </section>
+        <section id="second">
+            <h1>Our Server</h1>
+            <div class="d-flex justify-content-evenly gap-2">
+            <div class="card shadow-lg border">
+                <div class="card-img-top"></div>
+                <div class="card-body">
+                    <div class="card-title">See Other Players</div>
+                    <div class="card-text">Participate in building our world!</div>
+                </div>
+            </div>
+            <div class="card shadow-lg border">
+                <div class="card-img-top" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDEpre7lzzWeLyqe5j6zQspA8_BkHHUK_zPz7xpgkGA&s=10');"></div>
+                <div class="card-body">
+                    <div class="card-title">See Other Players</div>
+                    <div class="card-text">Participate in building our world!</div>
+                </div>
+            </div>
+            <div class="card shadow-lg border">
+                <div class="card-img-top" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvDUuJK-obxQR_dXWdIHC1LrDWi8nndrWUWQVxi9bmg&s=10');"></div>
+                <div class="card-body">
+                    <div class="card-title">See Other Players</div>
+                    <div class="card-text">Participate in building our world!</div>
+                </div>
+            </div>
+            
+            </div>   
+        </section>
+    </main>
+    <footer class="border-top border-3 my-5">
+        <h1>Hamoda Elemary</h1>
+    </footer>
+</body>
+</html>
